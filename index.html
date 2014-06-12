@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HOME · KAE SITU</title>
+	<meta name="handheldfriendly" content="true">
+  	<meta name="mobileoptimized" content="240">
+  	<meta name="viewport" content="width=device-width,initial-scale=1"><link href="_includes/general.css" rel="stylesheet">
+  	<link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,700' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="_includes/general.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<meta name="description" content="Black Ninjas &middot; Clothing Line Company from Ottawa, Ontario, Canada.">
+	<meta name="keywords" content="graphic, designer, web, photography, katie, situ, ottawa, canada">
+	<meta name="author" content="Katie Situ">
+	<meta name="dcterms.rightsHolder" content="Katie Situ">
+	<link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico">
+</head>
+
+<body>
+
+<header class="masthead">
+	<h1>KATIE SITU<h1>
+	<h4>GRAPHIC DESIGN · PHOTOGRAPHY</h4>
+	<a class="nav-btn hide-text" href="">Navigation</a>
+	<nav class="nav nav-top" data-state="collasped" role="navigation">
+		<ul>
+			<li><a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/">HOME</a></li>
+			<li><a class="{% if page.url contains 'about' %}current{% endif %}"href="{{site.baseurl}}/about/">ABOUT</a></li>
+			<li><a class="{% if page.url contains '/products/' %}current{% endif %}"href="{{site.baseurl}}/products/">WORK</a></li>
+		</ul>	
+	</nav>	
+</header>
+
+<div class="content grid">
+	<div class="home-img gutter unit unit-s-1 unit-m-1 unit-l-1-2">
+	<img class="img-flex" src="images/background.jpg" alt="img">
+	</div>
+	<div class="home-img gutter unit unit-s-1 unit-m-1 unit-l-1-2">
+	<img class="img-flex" src="images/background.jpg" alt="img">
+	</div>
+	<div class="home-img gutter unit unit-s-1 unit-m-1 unit-l-1-2">
+	<img class="img-flex" src="images/background.jpg" alt="img">
+	</div>
+	<div class="home-img gutter unit unit-s-1 unit-m-1 unit-l-1-2">
+	<img class="img-flex" src="images/background.jpg" alt="img">
+	</div>
+</div>
+
+<footer>
+	<ul class="social">
+		<li><a class="ease-all" href="#"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
+		<li><a class="ease-all" href="#"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
+	</ul>
+	<p class="copyright" role="contentinfo">© 2014 KATIE SITU</p>
+</footer>
+	
+<script src="js/nav.js"></script>
