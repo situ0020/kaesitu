@@ -261,4 +261,12 @@ footer {
 	.unit-l-1-2 {
 		width: 50%;
 	}
+		.content {
+	padding: 15rem;
+	}
+
+	.nav li{
+		display: inline-block;
+		width: 6rem;
+	}
 }
